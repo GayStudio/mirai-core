@@ -295,7 +295,7 @@ sealed class MessageRecallEvent : BotEvent, AbstractEvent() {
     abstract val messageTime: Int // seconds
 
     /**
-     * 好友消息撤回事件, 暂不支持.
+     * 好友消息撤回事件
      */
     data class FriendRecall internal constructor(
         override val bot: Bot,
