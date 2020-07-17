@@ -329,6 +329,12 @@ private object Transformers732 : Map<Int, Lambda732> by mapOf(
                 }
             }
         }
+    },
+
+    // official bot join
+    0x10 to lambda732 { group: GroupImpl, bot: QQAndroidBot ->
+
+        return@lambda732 emptySequence()
     }
 )
 
